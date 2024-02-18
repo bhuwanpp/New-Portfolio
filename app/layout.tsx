@@ -21,9 +21,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>{children}
       <script
-      src="https://kit.fontawesome.com/c8eb323ddc.js"
+      src="https://kit.fontawesome.com/c8eb323ddc.js" async
       ></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"
+    async ></script>
       </body>
     </html>
   );
