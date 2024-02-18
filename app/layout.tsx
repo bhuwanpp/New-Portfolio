@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Bhuwan Paudel 👨🏻‍💻 | Software Developer",
   description: "Self Taught",
   icons: {
-    icon:'/images/bp3.png', 
+    icon:'/images/bp.png', 
   },
 };
 
