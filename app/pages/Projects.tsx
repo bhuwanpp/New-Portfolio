@@ -26,7 +26,7 @@ export default function Project() {
                  text-lg text-lime-700">Github🚀</a>
              
                 </div>
-                <h5 className="lg:text-lg text-base">"Do It" is a user-friendly task management website designed to help your achieve your goals efficiently.
+                <h5 className="lg:text-lg text-base">&quot;Do It&quot; is a user-friendly task management website designed to help your achieve your goals efficiently.
                     This app reduces stress by providing users with a clear overview 
                     of their tasks and progress, thereby minimizing overwhelm.
                     <p className="pt-5 text-gray-700">
@@ -71,7 +71,7 @@ export default function Project() {
                  text-lg text-lime-700">Github🚀</a>
              
                 </div>
-                <h5 className="lg:text-lg text-base ">"Quotes.all" is a web application that allows users to create their own custom quotes and fetch quotes from an external API...
+                <h5 className="lg:text-lg text-base ">&quot;Quotes.all&quot; is a web application that allows users to create their own custom quotes and fetch quotes from an external API...
                 Need to save only Quotes with my own quote website not in google docs.
                 If I need a Motivation I would find the quote.
                 If I saw some quote or made it of my own I can save it
