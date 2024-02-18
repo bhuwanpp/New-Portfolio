@@ -1,4 +1,4 @@
-[![My PortFolio](/public/images/portfolio.png)](https://google.com)
+[![My PortFolio](/public/images/portfolio.png)](https://bhuwanp.com)
 
 # My Portfolio
 
