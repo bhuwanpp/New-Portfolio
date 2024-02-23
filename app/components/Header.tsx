@@ -103,7 +103,7 @@ export default function Header() {
         <ul className=' py-2 relative   text-center  grid  items-center justify-center w-screen gap-3 md:gap-10'>
         <Link href='#home' className=' hover:text-hover
            transition-all'>
-            <li className=" relative cursor-pointer group px-1 pb-1">Home
+            <li  onClick={handleX} className=" relative cursor-pointer group px-1 pb-1">Home
             <span className="mx-4 absolute block left-0 right-0 bottom-0  h-[1px] bg-hover scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
             
             </li>
@@ -111,19 +111,19 @@ export default function Header() {
           </Link>
           <Link href='#about'  className='hover:text-hover 
            transition-all'>
-            <li className=" relative cursor-pointer group px-1 pb-1">About
+            <li  onClick={handleX} className=" relative cursor-pointer group px-1 pb-1">About
             <span className=" mx-3 mr-4 absolute block left-0 right-0 bottom-0  h-[1px] bg-hover scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
             </li>
           </Link>
           <Link href='#project' className='hover:text-hover 
            transition-all'>
-            <li className=" relative cursor-pointer group px-1 pb-1">Projects
+            <li  onClick={handleX} className=" relative cursor-pointer group px-1 pb-1">Projects
             <span className="mr-2 absolute block left-0 right-0 bottom-0  h-[1px] bg-hover scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
             </li>
           </Link>
           <Link href='#contact' className='hover:text-hover 
            transition-all'>
-            <li className=" relative cursor-pointer group px-1 pb-1">Contacts
+            <li  onClick={handleX} className=" relative cursor-pointer group px-1 pb-1">Contacts
             <span className="mr-2 absolute block left-0 right-0 bottom-0  h-[1px] bg-hover scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
             </li>
           </Link>
