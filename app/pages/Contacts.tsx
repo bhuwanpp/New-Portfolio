@@ -19,7 +19,7 @@ export default function Contacts() {
           </a>
         </div>
         <div className="twitter">
-          <a href="https://twitter.com/BhuwanP69" target='_blank'>
+          <a href="https://twitter.com/Bhuwanpp" target='_blank'>
         <i className="fa-brands fa-twitter text-4xl relative top-0 hover:-top-1
          text-[#1da1f2] 
          transition-all duration-500"></i>
@@ -32,7 +32,7 @@ export default function Contacts() {
         <h2 className=' text-2xl md:text-3xl   pb-2 tracking-wider font-semibold'>Have any Questions? Reach out.</h2>
         <h5 className='text-md'>Send me a 
         {/* tweet */}
-        <a href="https://twitter.com/BhuwanP69" target='_blank' className='text-contact font-normal relative text-button-color4 cursor-pointer group px-1 pb-1'>Tweet
+        <a href="https://twitter.com/Bhuwanpp" target='_blank' className='text-contact font-normal relative text-button-color4 cursor-pointer group px-1 pb-1'>Tweet
            <span className=" mr-1 absolute block left-0 right-0 bottom-0  h-[1px]
             bg-contact scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
            

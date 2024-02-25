@@ -18,7 +18,7 @@ export default function Sidebar() {
           </a>
         </div>
         <div className="twitter">
-          <a href="https://twitter.com/BhuwanP69" target='_blank'>
+          <a href="https://twitter.com/Bhuwanpp" target='_blank'>
         <i className="fa-brands fa-twitter text-3xl   text-[#1da1f2] 
          transition-all duration-500  relative top-0 hover:-top-[2px] "></i>
           </a>
