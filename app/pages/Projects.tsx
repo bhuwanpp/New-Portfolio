@@ -52,7 +52,7 @@ export default function Project() {
 
         </div>
         {/* right */}
-        <div className=" px-5 pl-5 w-[350px] md:w-[400px] lg:w-[600px] ">
+        <div className=" px-5 pl-7 w-[350px] md:w-[400px] lg:w-[600px] ">
                 <h3 className="text-3xl pb-3 font-semibold">Quotes.all 💡 </h3>
                 <div className="tools flex gap-5 pb-5">
                 <p className="bg-green-200 rounded-md px-3 py-0">NextJs </p>
