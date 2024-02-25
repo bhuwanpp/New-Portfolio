@@ -1,7 +1,7 @@
 
 export default function Project() {
   return (
-   <div className=" px-16 sm:pl-36 md:pl-16 lg:px-16 py-20 " id="project">
+   <div className=" px-12  lg:px-16 py-20 " id="project">
     <h2 className="text-center text-3xl  -pl-32 font-bold"> My Projects</h2>
     <hr className="h-[0.5px] my-8 bg-line border-0 "></hr>
     <div className="project1  md:flex  items-center grid gap-8  md:gap-20 pb-10 sm:pb-32 ">
@@ -38,21 +38,22 @@ export default function Project() {
             </div>
         </div>
         {/* right  */}
-        <div className=" px-3">
+        <div className=" px-0">
             <img src='/images/do.png' alt="" className=" w-[800px]" />
         </div>
 
     </div>
+
     {/* project quotes  */}
     <div className="projects  md:flex md:flex-row flex items-center  flex-col-reverse gap-8  md:gap-20 pb-5 ">
         {/* left  */}
-        <div className=" px-3">
+        <div className=" px-0">
             <img src="/images/quotes.png" alt="" className=" w-[800px]" />
 
         </div>
         {/* left  */}
         <div className=" w-[350px] md:w-[400px] lg:w-[600px]">
-            <div className=" px-2">
+            <div className="">
                 <h3 className="text-3xl pb-3 font-semibold">Quotes.all 💡 </h3>
                 <div className="tools flex gap-5 pb-5">
                 <p className="bg-green-200 rounded-md px-3 py-0">NextJs </p>
