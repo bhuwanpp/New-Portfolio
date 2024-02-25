@@ -26,7 +26,7 @@ export default function Project() {
                  text-lg text-lime-700">Github🚀</a>
              
                 </div>
-                <h5 className="lg:text-lg text-base">&quot;Do It&quot; is a user-friendly task management website designed to help your achieve your goals efficiently.
+                <h5 className="lg:text-lg text-base">&quot;Do It&quot; is a user-friendly task management website designed to help achieve your goals efficiently.
                     This app reduces stress by providing users with a clear overview 
                     of their tasks and progress, thereby minimizing overwhelm.
                     <p className="pt-5 text-gray-700">
