@@ -42,7 +42,7 @@ export default function Header() {
   return (
     <main>
    <div  ref={moreInfoRef} className={`bg-header fixed
-    top-0 w-full z-50 flex justify-between items-center text-xl px-3 md:px-10 pr-12 md:pr-24 root-layout   transition-all duration-1000  ${scrolled ? " h-16 " : "h-20 "} `} >
+    top-0 w-full z-50 flex justify-between items-center text-xl px-4 md:px-10 pr-20 md:pr-24   transition-all duration-1000  ${scrolled ? " h-16 " : "h-20 "} `} >
 
     <div className="left">
       <Link href='#home'>

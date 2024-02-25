@@ -1,6 +1,4 @@
 'use client'
-
-import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 export default function MainSection() {
   return (
@@ -37,7 +35,7 @@ export default function MainSection() {
           </div>
         </div>
         <div className="right  relative pt-5 md:pl-0 pl-0 sm:pl-32  md:pt-10 ">
-          <img src='/images/myself.png' alt="my pic" className='rounded-lg  h-96 md:h-96' />
+          <img src='/images/myself.png' alt="my pic" className='rounded-lg  h-80 sm:h-96 md:h-96' />
         </div>
       </div>
 
