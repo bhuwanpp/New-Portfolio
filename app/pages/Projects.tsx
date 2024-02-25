@@ -37,23 +37,22 @@ export default function Project() {
                 </h5>
             </div>
         </div>
+
         {/* right  */}
-        <div className=" px-0">
+        <div className=" px-3">
             <img src='/images/do.png' alt="" className=" w-[800px]" />
         </div>
-
     </div>
 
     {/* project quotes  */}
     <div className="projects  md:flex md:flex-row flex items-center  flex-col-reverse gap-8  md:gap-20 pb-5 ">
         {/* left  */}
-        <div className=" px-0">
+        <div className=" px-3">
             <img src="/images/quotes.png" alt="" className=" w-[800px]" />
 
         </div>
-        {/* left  */}
-        <div className=" w-[350px] md:w-[400px] lg:w-[600px]">
-            <div className="">
+        {/* right */}
+        <div className=" px-5 pl-5 w-[350px] md:w-[400px] lg:w-[600px] ">
                 <h3 className="text-3xl pb-3 font-semibold">Quotes.all 💡 </h3>
                 <div className="tools flex gap-5 pb-5">
                 <p className="bg-green-200 rounded-md px-3 py-0">NextJs </p>
@@ -70,7 +69,6 @@ export default function Project() {
                  <i className="fa-solid fa-arrow-up-right-from-square text-sm pl-1"></i></a>
                 <a href="https://github.com/bhuwanpp/Quotes.all" target="_blank" className="underline 
                  text-lg text-lime-700">Github🚀</a>
-             
                 </div>
                 <h5 className="lg:text-lg text-base ">&quot;Quotes.all&quot; is a web application that allows users to create their own custom quotes and fetch quotes from an external API...
                 Need to save only Quotes with my own quote website not in google docs.
@@ -80,7 +78,6 @@ export default function Project() {
                     Features - ➕Add / ❌Delete / 🛠️Update Quotes,🌐fetch Quotes
                     </p>
                 </h5>
-            </div>
         </div>
     </div>
  
