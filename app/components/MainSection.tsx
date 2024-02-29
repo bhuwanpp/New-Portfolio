@@ -13,12 +13,12 @@ export default function MainSection() {
           <p className='text-xl'>Frontend Developer who likes 
        <span className='text-[#edd115] font-semibold  pl-2 font-serif'>
        <Typewriter
-            words={[' JavaScript']}
+            words={['Javascript ']}
             typeSpeed={50}
             loop={2}
             deleteSpeed={10}
           />
-        </span>,
+        </span>
           and also love making websites. </p>
           <div className="button pt-5">
             <a href="mailto:bhubanpaudel79@gmail.com">
