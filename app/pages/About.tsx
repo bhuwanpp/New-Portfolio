@@ -7,14 +7,14 @@ export default function About() {
 
     <div className='md:flex grid  gap-10  md:gap-20  justify-between px-5 lg:px-10'>
       <div className="left w-80 sm:w-[425px] text-lg px-2">
-        <h2 className='font-semibold text-xl pb-2 '>Who am I ? </h2>
-        <h5 className='font-normal'>Hi ! I am Bhuwan Paudel, a software developer who loves to build website.
+        <p className='font-semibold text-xl pb-2 '>Who am I ? </p>
+        <h1 className='font-normal'>Hi ! I am Bhuwan Paudel, a software developer who loves to build website.
         <p className='pt-2'>
          I have a strong foundation in <span className=' font-mono  italic text-[#edd115] font-semibold px-1'>JavaScript</span> and <span className='text-[#61dafb] italic font-semibold px-1'>React</span>  and I&apos;m currently learning <span className='text-black font-mono italic font-semibold'>NextJs.
          </span>
         </p>
         <p className='pt-2 italic'> &quot;I just want to work with computers and get paid.&quot;</p>
-         </h5>
+         </h1>
       </div>
       <div className="right ">
         <h2 className=' text-center pb-8 text-xl font-semibold'>My skills </h2>

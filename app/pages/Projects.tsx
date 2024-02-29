@@ -31,7 +31,7 @@ export default function Project() {
                     of their tasks and progress, thereby minimizing overwhelm.
                     <p className="pt-5 text-gray-700">
                     Features - ➕Add / ❌Delete/ 🛠️Update Task 🔐Authentication,
-                    🔎Search Task,🌞🌛light / dark mode,
+                    🔎Search Task,🤚🏻 Drag and Drop 🌞🌛light / dark mode,
                     ⬆️ backToTopButton.
                     </p>
                 </h5>
