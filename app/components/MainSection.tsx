@@ -18,8 +18,8 @@ export default function MainSection() {
             loop={2}
             deleteSpeed={10}
           />
-        </span>.
-          And also love making websites. </p>
+        </span>,
+          and also love making websites. </p>
           <div className="button pt-5">
             <a href="mailto:bhubanpaudel79@gmail.com">
           <button className='bg-blue-200 hover:bg-blue-300 hover:text-hover transition-all duration-500  px-7 py-2 rounded-md mb-3'>Say Hi 👋
