@@ -4,7 +4,7 @@ export default function Sidebar() {
   return (
     <div className='fixed -left-2 top-1/3  pt-20 z-50'>
       <div className="links  flex flex-col gap-3 sm:gap-4 bg-header  
-       px-1 pl-3 py-2  sm:py-3 pt-3 rounded-xl ">
+       px-1 pl-4 py-2  sm:py-3 pt-3 rounded-xl ">
         <div className="github">
           <a href="https://github.com/bhuwanpp" target='_blank'>
         <i className="fa-brands fa-github   relative top-0 hover:-top-[2px]   
