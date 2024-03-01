@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Bhuwan Paudel 👨🏻‍💻 | Software Developer",
-  description: "Bhuwan Paudel Portfolio | Software Developer | Self Taught | Programming | Javascript",
+  description: "Hi, I am Bhuwan , Software Developer who likes Javascript and also love making websites.I just want to work with computers and get paid.",
   icons: {
     icon:'/images/bp.png', 
   },
