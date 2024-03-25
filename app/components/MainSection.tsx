@@ -26,7 +26,7 @@ export default function MainSection() {
           </button>
             </a>
           <br />
-          <a href="/resume/cv.pdf"
+          <a href="/resume/resume.pdf"
               target="_blank"
               rel="noopener noreferrer">
               <button className='bg-blue-200 hover:bg-blue-300  hover:text-hover transition-all duration-500  px-2 py-2 rounded-md'> 
