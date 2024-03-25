@@ -12,7 +12,7 @@ export default function Sidebar() {
           </a>
         </div>
         <div className="linkedin">
-          <a href="https://www.linkedin.com/in/bhuwan-paudel-591468224/" target='_blank'>
+          <a href="https://www.linkedin.com/in/bhuwanpp/" target='_blank'>
         <i className="fa-brands fa-linkedin text-3xl   text-[#0077b5]
          transition-all duration-500  relative top-0 hover:-top-[2px] "></i>
           </a>

@@ -13,7 +13,7 @@ export default function Contacts() {
           </a>
         </div>
         <div className="linkedin pb-3">
-          <a href="https://www.linkedin.com/in/bhuwan-paudel-591468224/" target='_blank'>
+          <a href="https://www.linkedin.com/in/bhuwanpp/" target='_blank'>
         <i className="fa-brands fa-linkedin text-4xl
         relative top-0 hover:-top-1 text-[#0077b5] transition-all duration-500"></i>
           </a>
