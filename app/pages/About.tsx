@@ -22,15 +22,15 @@ export default function About() {
         <h5 className='bg-blue-200 hover:text-black text-center
           rounded-md  hover:rotate-2  duration-500 py-2 w-24 sm:w-28 m-2'>Javascript</h5>
         <h5 className='bg-blue-200 hover:text-black  text-center py-2 rounded-md
-         duration-500 hover:-rotate-2 w-24 sm:w-28 m-2' > React </h5>
+         duration-500 hover:-rotate-2 w-24 sm:w-28 m-2' > TypeScript </h5>
         <h5 className='bg-blue-200 hover:text-black  px-1 sm:px-2 text-center rounded-md 
+        hover:rotate-2 duration-500 py-2  w-24 sm:w-28 text-nowrap m-2 '>NextJs</h5>
+        <h5 className='bg-blue-200 hover:text-black text-center rounded-md 
+        hover:rotate-2 duration-500 py-2  w-24 sm:w-28 px-2 text-nowrap m-2 '>SQL</h5>
+        <h5 className='bg-blue-200 hover:text-black  px-1 sm:px-2 text-center rounded-md 
+        hover:-rotate-2 duration-500 py-2  w-24 sm:w-28 text-nowrap m-2 '>NodeJs</h5>
+        <h5 className='bg-blue-200 hover:text-black  px-1 sm:px-1 text-center rounded-md 
         hover:rotate-2 duration-500 py-2  w-24 sm:w-28 text-nowrap m-2 '>TailwindCss</h5>
-        <h5 className='bg-blue-200 hover:text-black  px-1 sm:px-2 text-center rounded-md 
-        hover:rotate-2 duration-500 py-2  w-24 sm:w-28 text-nowrap m-2 '>TypeScript</h5>
-        <h5 className='bg-blue-200 hover:text-black  px-1 sm:px-2 text-center rounded-md 
-        hover:-rotate-2 duration-500 py-2  w-24 sm:w-28 text-nowrap m-2 '>NextJs</h5>
-        <h5 className='bg-blue-200 hover:text-black  px-1 sm:px-2 text-center rounded-md 
-        hover:rotate-2 duration-500 py-2  w-24 sm:w-28 text-nowrap m-2 '>Supabase</h5>
         <h5 className='bg-blue-200 hover:text-black px-2 text-center rounded-md
         hover:rotate-2 duration-500   w-24 sm:w-28 py-2 m-2'>Git</h5>
         <h5 className='bg-blue-200 hover:text-black px-2 text-center rounded-md
