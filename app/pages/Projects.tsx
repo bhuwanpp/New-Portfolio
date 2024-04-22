@@ -40,7 +40,7 @@ export default function Project() {
 
         {/* right  */}
         <div className=" px-3">
-            <img src='/images/do.png' alt="" className=" w-[800px]" />
+            <img src='/images/do.png' alt="" className=" w-[800px] rounded-md" />
         </div>
     </div>
 
@@ -48,34 +48,32 @@ export default function Project() {
     <div className="projects  md:flex md:flex-row flex items-center  flex-col-reverse gap-8  md:gap-20 pb-5 ">
         {/* left  */}
         <div className=" px-3">
-            <img src="/images/quotes.png" alt="" className=" w-[800px]" />
+            <img src="/images/blogdev.png" alt="" className=" w-[800px] rounded-md" />
 
         </div>
         {/* right */}
         <div className=" px-5 pl-7 w-[350px] md:w-[400px] lg:w-[600px] ">
-                <h3 className="text-3xl pb-3 font-semibold">Quotes.all 💡 </h3>
+                <h3 className="text-3xl pb-3 font-semibold">BlogDev 📃 </h3>
                 <div className="tools flex gap-5 pb-5">
                 <p className="bg-green-200 rounded-md px-3 py-0">NextJs </p>
                 <p className="bg-green-200 rounded-md px-3 py-0">TypeScript </p>
-                <p className="bg-green-200 rounded-md px-3 py-0">TailwindCss </p>
+                <p className="bg-green-200 rounded-md px-3 py-0">Golang </p>
                 </div>
                 <div className=" flex gap-5 pb-2">
-                <p className="bg-green-200 rounded-md px-3 py-0">Supabase</p>
+                <p className="bg-green-200 rounded-md px-3 py-0">SQL</p>
                 </div>
                 <div className="link pb-5 font-normal pt-5 flex gap-5">
 
-                <a href="https://quotes-all.vercel.app/" target="_blank" className="underline 
+                <a href="https://bloggdev.netlify.app/" target="_blank" className="underline 
                  text-lg text-lime-700">Project Link 
                  <i className="fa-solid fa-arrow-up-right-from-square text-sm pl-1"></i></a>
-                <a href="https://github.com/bhuwanpp/Quotes.all" target="_blank" className="underline 
+                <a href="https://github.com/bhuwanpp/bloggingDev" target="_blank" className="underline 
                  text-lg text-lime-700">Github🚀</a>
                 </div>
-                <h5 className="lg:text-lg text-base ">&quot;Quotes.all&quot; is a web application that allows users to create their own custom quotes and fetch quotes from an external API...
-                Need to save only Quotes with my own quote website not in google docs.
-                If I need a Motivation I would find the quote.
-                If I saw some quote or made it of my own I can save it
+                <h5 className="lg:text-lg text-base ">&quot;BlogDev&quot; is a web application that allows users to create their own custom blog and see
+others blogs , update own blog.
                 <p className="pt-5 text-gray-700">
-                    Features - ➕Add / ❌Delete / 🛠️Update Quotes,🌐fetch Quotes
+                    Features - ➕Add / ❌Delete / 🛠️Update Blogs
                     </p>
                 </h5>
         </div>
