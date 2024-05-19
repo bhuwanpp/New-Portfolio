@@ -40,7 +40,7 @@ export default function Header() {
 
   
   return (
-    <main>
+    <>
    <div  ref={moreInfoRef} className={`bg-header fixed
     top-0 w-full z-50 flex justify-between items-center text-xl px-4 md:px-10 pr-20 md:pr-24   transition-all duration-1000  ${scrolled ? " h-16 " : "h-20 "} `} >
 
@@ -65,7 +65,8 @@ export default function Header() {
             <span className=" absolute block left-0 right-0 bottom-0  h-[1px] bg-hover scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
             </li>
           </Link>
-              <Link href='hackthon' className=' hover:text-hover
+
+              <Link href='hackathon' className=' hover:text-hover
            transition-all'>
             <li className=" relative cursor-pointer group px-1 pb-1">Hackathon
             <span className=" mr-1 absolute block left-0 right-0 bottom-0  h-[1px]
@@ -74,8 +75,8 @@ export default function Header() {
 
                </span>
             </li>
-
           </Link>
+
           <Link href='#contact' className='hover:text-hover 
            transition-all'>
             <li className=" relative cursor-pointer group px-1 pb-1">Contacts
@@ -101,17 +102,9 @@ export default function Header() {
               }
             </div>
             {showRight &&
-         <div className={` right-small grid py-2  sm:hidden   bg-[#fcebe1] absolute left-0 transition-all 
+         <div className={` right-small grid py-2  sm:hidden   bg-[#EEF7FF] fixed left-0 transition-all 
           ${scrolled ? "top-16" : "top-20 "} `}>
         <ul className=' py-2 relative   text-center  grid  items-center justify-center w-screen gap-3 md:gap-10'>
-        <Link href='#home' className=' hover:text-hover
-           transition-all'>
-            <li  onClick={handleX} className=" relative cursor-pointer group px-1 pb-1">Home
-            <span className="mx-4 absolute block left-0 right-0 bottom-0  h-[1px] bg-hover scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
-            
-            </li>
-
-          </Link>
           <Link href='#about'  className='hover:text-hover 
            transition-all'>
             <li  onClick={handleX} className=" relative cursor-pointer group px-1 pb-1">About
@@ -124,6 +117,18 @@ export default function Header() {
             <span className="mr-2 absolute block left-0 right-0 bottom-0  h-[1px] bg-hover scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
             </li>
           </Link>
+              <Link href='hackathon' className=' hover:text-hover
+           transition-all'>
+            <li className=" relative cursor-pointer group px-1 pb-1">Hackathon
+            <span className=" mr-1 absolute block left-0 right-0 bottom-0  h-[1px]
+             bg-hover scale-x-0 transform  transition-transform ease-in-out
+               origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left ">
+
+               </span>
+            </li>
+
+          </Link>
+
           <Link href='#contact' className='hover:text-hover 
            transition-all'>
             <li  onClick={handleX} className=" relative cursor-pointer group px-1 pb-1">Contacts
@@ -133,9 +138,8 @@ export default function Header() {
             </ul>
             </div>
 }
-  
    </div>
    
-   </main>
+   </>
   )
 }
