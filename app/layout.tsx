@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Kanit } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const kanit = Kanit({ subsets: ["latin"],
+  weight: ["300", "400", "500","600", "700", "800", "900" ],
+  variable: '--font-kanit',
+ });
+
 
 export const metadata: Metadata = {
   title: "Bhuwan Paudel 👨🏻‍💻 | Software Developer",
@@ -19,12 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}
+      <body className={kanit.className}>{children}
       <script
       src="https://kit.fontawesome.com/c8eb323ddc.js" async
       ></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"
     async ></script>
+    
       </body>
     </html>
   );
