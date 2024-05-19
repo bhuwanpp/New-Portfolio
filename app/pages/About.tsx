@@ -19,12 +19,12 @@ export default function About() {
         </span>
         </p>
          </h1>
-        <p className="text-xm pt-2">Also <span
-         className=" bg-clip-text bg-gradient-to-r from-[#6434cb] to-[#f5c144] inline-block text-transparent font-bold  pr-2">DEERHACK 2024 
+        <p className="text-xm pt-2  flex gap-1">Also <span
+         className=" bg-clip-text bg-gradient-to-r from-[#6434cb] to-[#f5c144] inline-block text-transparent font-bold ">DEERHACK 2024 
          </span>
          <img src="/images/winner.png" alt="" className="w-16 pr-1  rounded-xl inline" />
-         
-          Hackthon Winner.</p>
+          Hackthon Winner.
+          </p>
       </div>
       <div className="right ">
         <h2 className=' text-center pb-8 text-xl font-semibold'>My skills </h2>

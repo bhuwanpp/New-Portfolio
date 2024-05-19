@@ -29,7 +29,6 @@ export default function RootLayout({
       ></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"
     async ></script>
-    
       </body>
     </html>
   );
