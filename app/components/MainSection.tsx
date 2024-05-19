@@ -1,6 +1,11 @@
 'use client'
 import { Typewriter } from 'react-simple-typewriter'
 export default function MainSection() {
+  const handleWhatsAppClick = (phoneNumber:number) => {
+    const message = encodeURIComponent('Hi');
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+    window.open(url, '_blank');
+  };
   return (
     <main className=' px-10 lg:px-20 py-16 sm:py-24' id='home' >
       <div className='md:flex  grid  gap-5 md:gap-20 '>
@@ -11,9 +16,9 @@ export default function MainSection() {
           </div>
           <h2 className='text-3xl font-normal pb-3 md:pb-5'>I am Bhuwan Paudel.🧑🏻‍💻</h2>
           <p className='text-xl'>Frontend Developer who likes 
-       <span className='text-[#edd115] font-semibold  pl-2 font-serif'>
+       <span className='text-[#FF9F66] font-semibold  pl-2 font-serif'>
        <Typewriter
-            words={['Javascript ']}
+            words={['Coding ']}
             typeSpeed={50}
             loop={2}
             deleteSpeed={10}
@@ -21,10 +26,10 @@ export default function MainSection() {
         </span>
           and also love making websites. </p>
           <div className="button pt-5">
-            <a href="mailto:bhubanpaudel79@gmail.com">
+            <button onClick={() => handleWhatsAppClick(9861658435)}>
           <button className='bg-blue-200 hover:bg-blue-300 hover:text-hover transition-all duration-500  px-7 py-2 rounded-md mb-3'>Say Hi 👋
           </button>
-            </a>
+            </button>
           <br />
           <a href="/resume/resume.pdf"
               target="_blank"
