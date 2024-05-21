@@ -8,7 +8,7 @@ export default function Hackathon() {
     const img3 = '/images/deerhack2.jpg'
     const img4 = '/images/deerhack3.jpg'
     const img5 = '/images/deerhack4.jpg'
-    const img6 = '/images/deerhack4.jpg'
+    const img6 = '/images/deerhack5.jpeg'
     const img7 = '/images/deerhack6.jpg'
     const imgs:any =[
     {
@@ -76,7 +76,6 @@ export default function Hackathon() {
     {imgs.map((img:any,key:any) =>(
         <div className=" " key={key}>
             <img src={img.image}  alt={img.title} className="  w-[700px] pb-1  flex" />
-
         </div>
     ))}
     </div>
