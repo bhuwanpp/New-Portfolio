@@ -5,6 +5,11 @@ import Link from "next/link"
 export default function Hackathon() {
     const img1 = '/images/winner.png'
     const img2 = '/images/deerhack1.jpg'
+    const img3 = '/images/deerhack2.jpg'
+    const img4 = '/images/deerhack3.jpg'
+    const img5 = '/images/deerhack4.jpg'
+    const img6 = '/images/deerhack4.jpg'
+    const img7 = '/images/deerhack6.jpg'
     const imgs:any =[
     {
     title: "Image 1",
@@ -13,6 +18,26 @@ export default function Hackathon() {
   {
     title: "Image 2",
     image: img2,
+  },
+  {
+    title: "Image 3",
+    image: img3,
+  },
+  {
+    title: "Image 4",
+    image: img4,
+  },
+  {
+    title: "Image 5",
+    image: img5,
+  },
+  {
+    title: "Image 6",
+    image: img6,
+  },
+  {
+    title: "Image 7",
+    image: img7,
   },
 ]
 
