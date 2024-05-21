@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Hackathon() {
     const img1 = '/images/winner.png'
-    const img2 = '/images/deerhack1.JPG'
+    const img2 = '/images/deerhack1.jpg'
     const img3 = '/images/deerhack2.JPG'
     const img4 = '/images/deerhack3.JPG'
     const img5 = '/images/deerhack4.JPG'
